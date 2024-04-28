@@ -21,7 +21,7 @@ function App() {
       <Student name="imalka" age={22} isStudent={false}/>
       <Student name="sinethu" age={11} isStudent={true}/>
       <Student name="piumx" age={50} isStudent={false}/>
-
+      <Student/>
     </>
     
   );
