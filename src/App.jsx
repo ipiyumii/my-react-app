@@ -4,6 +4,8 @@ import Food from './Food.jsx';
 import Card from './Card.jsx';
 import Button from './Button/Button.jsx';
 import Student from './Student.jsx';
+import UserGreeting from './UserGreeting.jsx';
+
 
 function App() {
 
@@ -22,6 +24,9 @@ function App() {
       <Student name="sinethu" age={11} isStudent={true}/>
       <Student name="piumx" age={50} isStudent={false}/>
       <Student/>
+      <UserGreeting isLoggedIn={false} username ="jane"/>
+      <UserGreeting isLoggedIn={true} username ="jane"/>
+      <UserGreeting/>
     </>
     
   );
