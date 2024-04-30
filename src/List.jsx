@@ -1,5 +1,5 @@
 function List(){
-    // const fruits = ["Banana","orange","Apple","Kivi","pineapple"];
+    //  const fruits = ["Banana","orange","Apple","Kivi","pineapple"];
 
     // convert array elements into objects
     const fruits = [{id: 1, name: "Banana", calories: 30},

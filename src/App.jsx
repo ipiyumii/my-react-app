@@ -7,6 +7,8 @@ import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx'
 import ReusableList from './assets/ReusableList.jsx';
+import ButtonClick from './ButtonClick.jsx';
+import ProfilePicture from './profilePicture.jsx';
 
 function App() {
 
@@ -44,6 +46,10 @@ function App() {
       { /* conditional rendering */ }
       {fruits.length > 0? <ReusableList items = {fruits} category = "fruits" /> : null} 
       {vegitable.length > 0 &&  <ReusableList items = {vegitable} category = "Vegitables" />}
+
+      <ButtonClick/>
+
+      <ProfilePicture/>
 
     </>
     

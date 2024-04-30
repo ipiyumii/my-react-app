@@ -7,8 +7,8 @@
   text-align: center;
   max-width: 250px;
   display: inline-block;
-  width: '150px';
-  height: '150px';
+  width: 150px;
+  height: 150px;
 }
 
 .card .card-image{
@@ -80,4 +80,9 @@
 .list-item li:hover{
   color: hsl(0, 0%, 46%);
   cursor: pointer;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
 }
